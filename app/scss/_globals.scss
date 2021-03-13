@@ -12,8 +12,20 @@ html {
   box-sizing: inherit;
 }
 
-body,
-  {
+body {
   margin: 0;
   padding: 0;
+}
+
+// Mixins
+
+$breakpoints: (small: (max-width: 656px), medium: (max-width: 800px),
+  large: (max-width: 1320px));
+
+@mixin media($breakpoint) {
+  $size: map-get($breakpoints, $breakpoint);
+
+  @media #{$size} {
+    @content
+  }
 }

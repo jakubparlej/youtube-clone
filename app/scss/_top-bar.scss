@@ -28,16 +28,22 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 42.25rem;
+  flex-basis: 42.25rem;
+  margin-left: 2.5rem;
+
+  @include media(small) {
+    display: none;
+  }
 
   a {
     width: 1.5rem;
     height: 1.5rem;
+    margin: 0 1rem;
   }
 
   &__form {
     display: flex;
-    width: 40rem;
+    flex-basis: 40rem;
     height: 2rem;
   }
 
@@ -72,20 +78,27 @@
 }
 
 .buttons {
-  width: 13.75rem;
+  // width: 13.875rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 
   a {
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: grid;
+    place-content: center;
+    margin-right: 0.5rem;
   }
 
   &__avatar {
     width: 2rem;
     height: 2rem;
+    margin: 0 0.875rem;
     background-color: $grayActive;
     border-radius: 50%;
+    background: url(/app/assets/images/abel.jpg);
+    background-size: 100%;
+    cursor: pointer;
   }
 }

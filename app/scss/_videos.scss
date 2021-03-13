@@ -1,0 +1,8 @@
+.videos {
+  position: fixed;
+  top: 3.5rem;
+  left: 15rem;
+  width: calc(100vw - 15rem);
+  height: calc(100vh - 3.5rem);
+  background-color: $veryDarkGray;
+}

@@ -1,5 +1,6 @@
 .top-bar {
   display: flex;
+  position: fixed;
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem;
@@ -95,7 +96,7 @@
     width: 2rem;
     height: 2rem;
     margin: 0 0.875rem;
-    background-color: $grayActive;
+    background-color: $grayHover;
     border-radius: 50%;
     background: url(/app/assets/images/abel.jpg);
     background-size: 100%;

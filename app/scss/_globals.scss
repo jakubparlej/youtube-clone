@@ -18,6 +18,11 @@ body {
   color: white;
 }
 
+a {
+  color: white;
+  text-decoration: none;
+}
+
 // Mixins
 
 $breakpoints: (small: (max-width: 656px), medium: (max-width: 800px),

@@ -1,6 +1,7 @@
 .top-bar {
   display: flex;
   position: fixed;
+  top: 0;
   justify-content: space-between;
   align-items: center;
   padding: 1.5rem;
@@ -101,5 +102,10 @@
     background: url(/app/assets/images/abel.jpg);
     background-size: 100%;
     cursor: pointer;
+  }
+
+  img {
+    width: 100%;
+    border-radius: 50%;
   }
 }

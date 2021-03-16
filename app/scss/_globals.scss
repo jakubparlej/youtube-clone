@@ -35,3 +35,7 @@ $breakpoints: (small: (max-width: 656px), medium: (max-width: 800px),
     @content
   }
 }
+
+.disable {
+  display: none;
+}

@@ -1,0 +1,44 @@
+.nav-bar {
+    position: fixed;
+    width: 4.5rem;
+    background-color: $darkGray;
+    height: calc(100vh - 3.5rem);
+    top: 3.5rem;
+}
+
+.menu-bar {
+    margin: 0.4rem 0;
+    list-style: none;
+    padding: 0;
+
+    &__link {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 4.625rem;
+        color: $lightGray;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 0.6rem;
+
+        &--active {
+            color: white;
+            font-weight: bold;
+        }
+
+        &:hover {
+            background-color: $grayHover;
+        }
+    }
+
+    &__icon {
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-bottom: 0.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

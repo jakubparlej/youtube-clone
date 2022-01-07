@@ -1,6 +1,6 @@
 # Youtube clone
 
-![Screenshot](./images/preview.jpg)
+![Screenshot](./preview.jpg)
 
 > Simple Youtube clone created with HTML, CSS & JS.
 

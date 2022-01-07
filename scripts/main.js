@@ -49,7 +49,7 @@ const videosData = [
     time: "20:12",
     channelName: "hello roman",
     channelLink: "https://www.youtube.com/c/helloroman",
-    channelImage: "/assets/images/helloroman.jpg",
+    channelImage: "./assets/images/helloroman.jpg",
     info: "191 tys. wyświetleń ▪ 3 lata temu",
   },
   {
@@ -59,7 +59,7 @@ const videosData = [
     time: "6:26",
     channelName: "hello roman",
     channelLink: "https://www.youtube.com/c/helloroman",
-    channelImage: "/assets/images/helloroman.jpg",
+    channelImage: "./assets/images/helloroman.jpg",
     info: "181 tys. wyświetleń ▪ 3 lata temu",
   },
   {
@@ -69,7 +69,7 @@ const videosData = [
     time: "24:53",
     channelName: "hello roman",
     channelLink: "https://www.youtube.com/c/helloroman",
-    channelImage: "/assets/images/helloroman.jpg",
+    channelImage: "./assets/images/helloroman.jpg",
     info: "101 tys. wyświetleń ▪ 2 lata temu",
   },
   {
@@ -79,7 +79,7 @@ const videosData = [
     time: "14:44",
     channelName: "hello roman",
     channelLink: "https://www.youtube.com/c/helloroman",
-    channelImage: "/assets/images/helloroman.jpg",
+    channelImage: "./assets/images/helloroman.jpg",
     info: "100 tys. wyświetleń ▪ 3 lata temu",
   },
   {
@@ -89,7 +89,7 @@ const videosData = [
     time: "0:54",
     channelName: "Fireship",
     channelLink: "https://www.youtube.com/c/Fireship",
-    channelImage: "/assets/images/fireship.jpg",
+    channelImage: "./assets/images/fireship.jpg",
     info: "3,5 mln wyświetleń ▪ 6 miesięcy temu",
   },
   {
@@ -99,7 +99,7 @@ const videosData = [
     time: "0:44",
     channelName: "Fireship",
     channelLink: "https://www.youtube.com/c/Fireship",
-    channelImage: "/assets/images/fireship.jpg",
+    channelImage: "./assets/images/fireship.jpg",
     info: "2 mln wyświetleń ▪ 5 miesięcy temu",
   },
   {
@@ -109,7 +109,7 @@ const videosData = [
     time: "12:37",
     channelName: "Fireship",
     channelLink: "https://www.youtube.com/c/Fireship",
-    channelImage: "/assets/images/fireship.jpg",
+    channelImage: "./assets/images/fireship.jpg",
     info: "1,9 mln wyświetleń ▪ 3 lata temu",
   },
   {
@@ -119,7 +119,7 @@ const videosData = [
     time: "9:36",
     channelName: "Fireship",
     channelLink: "https://www.youtube.com/c/Fireship",
-    channelImage: "/assets/images/fireship.jpg",
+    channelImage: "./assets/images/fireship.jpg",
     info: "1,6 mln wyświetleń ▪ 3 lata temu",
   },
   {
@@ -129,7 +129,7 @@ const videosData = [
     time: "5:21",
     channelName: "overment",
     channelLink: "https://www.youtube.com/c/overment",
-    channelImage: "/assets/images/overment.jpg",
+    channelImage: "./assets/images/overment.jpg",
     info: "141 tys. wyświetleń ▪ 3 lata temu",
   },
   {
@@ -139,7 +139,7 @@ const videosData = [
     time: "5:00",
     channelName: "overment",
     channelLink: "https://www.youtube.com/c/overment",
-    channelImage: "/assets/images/overment.jpg",
+    channelImage: "./assets/images/overment.jpg",
     info: "132 tys. wyświetleń ▪ 3 lata temu",
   },
   {
@@ -149,7 +149,7 @@ const videosData = [
     time: "5:41",
     channelName: "overment",
     channelLink: "https://www.youtube.com/c/overment",
-    channelImage: "/assets/images/overment.jpg",
+    channelImage: "./assets/images/overment.jpg",
     info: "82 tys. wyświetleń ▪ 3 lata temu",
   },
   {
@@ -159,7 +159,7 @@ const videosData = [
     time: "7:44",
     channelName: "overment",
     channelLink: "https://www.youtube.com/c/overment",
-    channelImage: "/assets/images/overment.jpg",
+    channelImage: "./assets/images/overment.jpg",
     info: "68 tys. wyświetleń ▪ 4 lata temu",
   },
   {
@@ -169,7 +169,7 @@ const videosData = [
     time: "24:53",
     channelName: "Pasja Informatyki",
     channelLink: "https://www.youtube.com/c/Pasjainformatykitutoriale",
-    channelImage: "/assets/images/pasja-informatyki.jpg",
+    channelImage: "./assets/images/pasja-informatyki.jpg",
     info: "3,5 mln wyświetleń ▪ 8 lata temu",
   },
   {
@@ -179,7 +179,7 @@ const videosData = [
     time: "31:24",
     channelName: "Pasja Informatyki",
     channelLink: "https://www.youtube.com/c/Pasjainformatykitutoriale",
-    channelImage: "/assets/images/pasja-informatyki.jpg",
+    channelImage: "./assets/images/pasja-informatyki.jpg",
     info: "2,6 mln wyświetleń ▪ 7 lata temu",
   },
   {
@@ -189,7 +189,7 @@ const videosData = [
     time: "9:46",
     channelName: "Pasja Informatyki",
     channelLink: "https://www.youtube.com/c/Pasjainformatykitutoriale",
-    channelImage: "/assets/images/pasja-informatyki.jpg",
+    channelImage: "./assets/images/pasja-informatyki.jpg",
     info: "2,2 mln wyświetleń ▪ 8 lata temu",
   },
   {
@@ -199,7 +199,7 @@ const videosData = [
     time: "39:22",
     channelName: "Pasja Informatyki",
     channelLink: "https://www.youtube.com/c/Pasjainformatykitutoriale",
-    channelImage: "/assets/images/pasja-informatyki.jpg",
+    channelImage: "./assets/images/pasja-informatyki.jpg",
     info: "1,8 mln wyświetleń ▪ 7 lata temu",
   },
 ];

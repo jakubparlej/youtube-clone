@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+// Mixins
+
+$breakpoints: (
+  "small": (
+    max-width: 656px,
+  ),
+  "medium": (
+    max-width: 815px,
+  ),
+  "ml": (
+    max-width: 1070px,
+  ),
+  "large": (
+    max-width: 1320px,
+  ),
+);
+
+@mixin media($breakpoint) {
+  $size: map-get($breakpoints, $breakpoint);
+
+  @media #{$size} {
+    @content;
+  }
+}
+
+.disable {
+  display: none;
+}
